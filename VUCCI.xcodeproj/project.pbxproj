@@ -7,25 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722D60022820AACA00B40464 /* NoSongsInPlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D60012820AACA00B40464 /* NoSongsInPlaylistTableViewCell.swift */; };
+		722D60042821E3B800B40464 /* SearchHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D60032821E3B800B40464 /* SearchHistoryTableViewCell.swift */; };
+		724035D3281BEA4E007CFC55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 724035D2281BEA4D007CFC55 /* GoogleService-Info.plist */; };
+		724035D5281BF1E9007CFC55 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724035D4281BF1E9007CFC55 /* AuthenticationManager.swift */; };
+		72429D96281E078000F8C2B3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72429D95281E078000F8C2B3 /* DatabaseManager.swift */; };
+		72429D98281E080C00F8C2B3 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72429D97281E080C00F8C2B3 /* StorageManager.swift */; };
+		72429D9A281E0F6100F8C2B3 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72429D99281E0F6100F8C2B3 /* LoadingViewController.swift */; };
+		72429D9C281EF95100F8C2B3 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72429D9B281EF95100F8C2B3 /* ToDoList.swift */; };
+		728CE3E5286B3B9F0023C32B /* NoResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CE3E4286B3B9E0023C32B /* NoResultsTableViewCell.swift */; };
+		72A496712804F4F200C8F923 /* CollectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A496702804F4F200C8F923 /* CollectionsViewController.swift */; };
+		72A496732804FE2300C8F923 /* SongGroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A496722804FE2300C8F923 /* SongGroupCollectionViewCell.swift */; };
+		72A49675280502DA00C8F923 /* CollectionViewViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A49674280502DA00C8F923 /* CollectionViewViewModels.swift */; };
+		72A496782805AF4100C8F923 /* SongGroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A496772805AF4100C8F923 /* SongGroupDetailViewController.swift */; };
+		72A4967B2805BC3F00C8F923 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4967A2805BC3F00C8F923 /* SongTableViewCell.swift */; };
+		72A4967E2805E60B00C8F923 /* SongGroupHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A4967D2805E60B00C8F923 /* SongGroupHeader.swift */; };
+		72A52433280609CF008CEC23 /* SongGroupFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A52432280609CF008CEC23 /* SongGroupFooter.swift */; };
+		72A5243A28060E89008CEC23 /* NewPlaylistNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5243928060E89008CEC23 /* NewPlaylistNameViewController.swift */; };
+		72A5243C2806E50A008CEC23 /* VucciTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5243B2806E50A008CEC23 /* VucciTextField.swift */; };
+		72A52444280715CF008CEC23 /* SelectPlaylistPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A52443280715CF008CEC23 /* SelectPlaylistPictureViewController.swift */; };
+		72A524472807367B008CEC23 /* SettingsMainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524462807367B008CEC23 /* SettingsMainMenuViewController.swift */; };
+		72A52449280749FE008CEC23 /* CurrentSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A52448280749FE008CEC23 /* CurrentSongViewController.swift */; };
+		72A5244C28079BC4008CEC23 /* MoreInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5244B28079BC3008CEC23 /* MoreInfoView.swift */; };
+		72A5244E2807AA36008CEC23 /* AccountNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5244D2807AA35008CEC23 /* AccountNameView.swift */; };
+		72A5245028088B38008CEC23 /* ArtistOrUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5244F28088B38008CEC23 /* ArtistOrUserViewController.swift */; };
+		72A5245228088FEB008CEC23 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5245128088FEA008CEC23 /* ContentCollectionViewCell.swift */; };
+		72A524542808A38F008CEC23 /* TopTenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524532808A38F008CEC23 /* TopTenView.swift */; };
+		72A5245C2809454C008CEC23 /* MusicTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5245B2809454C008CEC23 /* MusicTabViewController.swift */; };
+		72A52460280D5117008CEC23 /* SharedSongManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5245F280D5117008CEC23 /* SharedSongManager.swift */; };
+		72A52462280DE8C2008CEC23 /* NewMusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A52461280DE8C1008CEC23 /* NewMusicCollectionViewCell.swift */; };
+		72A52469280F8404008CEC23 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A52468280F8404008CEC23 /* MessageViewController.swift */; };
+		72A5246B280F8962008CEC23 /* MessageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5246A280F8962008CEC23 /* MessageManager.swift */; };
+		72A5246D280F9970008CEC23 /* MessageTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5246C280F9970008CEC23 /* MessageTypes.swift */; };
+		72A5246F28102768008CEC23 /* OtherAccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5246E28102768008CEC23 /* OtherAccountInfo.swift */; };
+		72A524712810EAB7008CEC23 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524702810EAB6008CEC23 /* TermsAndConditionsViewController.swift */; };
+		72A524732810EC45008CEC23 /* URLOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524722810EC45008CEC23 /* URLOpener.swift */; };
+		72A524752810ED2C008CEC23 /* ReportAnIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524742810ED2C008CEC23 /* ReportAnIssueViewController.swift */; };
+		72A524772811751A008CEC23 /* ChangeAccountTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5247628117519008CEC23 /* ChangeAccountTypeViewController.swift */; };
+		72A524792811771C008CEC23 /* ChangeUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524782811771C008CEC23 /* ChangeUsernameViewController.swift */; };
+		72A5247B28119443008CEC23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5247A28119443008CEC23 /* User.swift */; };
+		72A5247D28119777008CEC23 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5247C28119777008CEC23 /* UserListViewController.swift */; };
+		72A5247F281197CD008CEC23 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5247E281197CC008CEC23 /* UserTableViewCell.swift */; };
+		72A524812812E789008CEC23 /* PlaylistOrSongSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524802812E789008CEC23 /* PlaylistOrSongSearchViewController.swift */; };
+		72A524832812EB7D008CEC23 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A524822812EB7D008CEC23 /* ContentType.swift */; };
+		72A5248828174C64008CEC23 /* LikedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5248728174C64008CEC23 /* LikedCollectionViewCell.swift */; };
+		72A5248A28174CF5008CEC23 /* NewPlaylistPostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5248928174CF5008CEC23 /* NewPlaylistPostCollectionViewCell.swift */; };
+		72A5248C28175A8A008CEC23 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5248B28175A8A008CEC23 /* Post.swift */; };
+		72A5248E28177343008CEC23 /* PostContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A5248D28177342008CEC23 /* PostContainerView.swift */; };
+		72C273042822C55000BF0F87 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C273032822C55000BF0F87 /* TabBarViewController.swift */; };
+		72C273062822C5C400BF0F87 /* CreationMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C273052822C5C400BF0F87 /* CreationMenuViewController.swift */; };
+		72C273082823983000BF0F87 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C273072823982F00BF0F87 /* UserInfo.swift */; };
+		72C2730A2823B2C900BF0F87 /* TopTen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C273092823B2C900BF0F87 /* TopTen.swift */; };
+		72C2730C282405A300BF0F87 /* InformationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2730B282405A200BF0F87 /* InformationManager.swift */; };
+		72C2732C28259FF100BF0F87 /* UserSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2732B28259FF100BF0F87 /* UserSearchViewController.swift */; };
+		72C2736228270B7300BF0F87 /* UploadMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2736128270B7300BF0F87 /* UploadMenuViewController.swift */; };
+		72C2736D28294BF300BF0F87 /* SoundFileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2736C28294BF300BF0F87 /* SoundFileTableViewCell.swift */; };
+		72C2737028294CE000BF0F87 /* NewAlbumHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2736F28294CE000BF0F87 /* NewAlbumHeader.swift */; };
+		72C2737228295C2300BF0F87 /* UrlExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2737128295C2200BF0F87 /* UrlExporter.swift */; };
+		72C273742829E26900BF0F87 /* ChangeProfilePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C273732829E26900BF0F87 /* ChangeProfilePhotoViewController.swift */; };
+		72C27376282B2DBB00BF0F87 /* NewSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C27375282B2DBA00BF0F87 /* NewSongViewModel.swift */; };
+		72C273782833398300BF0F87 /* SongForAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C273772833398200BF0F87 /* SongForAlbumViewController.swift */; };
+		72C2737A28346B0100BF0F87 /* NewAlbumFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2737928346B0100BF0F87 /* NewAlbumFooter.swift */; };
+		72C2737C2836A0D300BF0F87 /* UserSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2737B2836A0D300BF0F87 /* UserSearchResultsViewController.swift */; };
+		72D280E22842BDDC00736789 /* Follow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D280E12842BDDB00736789 /* Follow.swift */; };
+		72D280E42842F22500736789 /* SettingsTableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D280E32842F22500736789 /* SettingsTableFooter.swift */; };
+		72D280E6284696EA00736789 /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D280E5284696E800736789 /* Issue.swift */; };
+		72D280E82847F09800736789 /* AllContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D280E72847F09800736789 /* AllContentViewController.swift */; };
+		72D280EC284A5C6B00736789 /* RecommendedUsersTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D280EB284A5C6A00736789 /* RecommendedUsersTableHeader.swift */; };
+		72DE6C70283CF82E002E4C83 /* TopPicksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C6F283CF82E002E4C83 /* TopPicksCollectionViewCell.swift */; };
+		72DE6C73283D81CE002E4C83 /* TopSongOrAlbumSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DE6C72283D81CE002E4C83 /* TopSongOrAlbumSearchViewController.swift */; };
 		72F53C5827C0738D0020FB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C5727C0738D0020FB8E /* AppDelegate.swift */; };
 		72F53C5A27C0738D0020FB8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C5927C0738D0020FB8E /* SceneDelegate.swift */; };
-		72F53C5C27C0738D0020FB8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C5B27C0738D0020FB8E /* ViewController.swift */; };
 		72F53C5F27C0738D0020FB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F53C5D27C0738D0020FB8E /* Main.storyboard */; };
 		72F53C6227C0738D0020FB8E /* VUCCI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C6027C0738D0020FB8E /* VUCCI.xcdatamodeld */; };
 		72F53C6427C0738E0020FB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F53C6327C0738E0020FB8E /* Assets.xcassets */; };
 		72F53C6727C0738E0020FB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F53C6527C0738E0020FB8E /* LaunchScreen.storyboard */; };
+		72F53C7727C074760020FB8E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C7627C074760020FB8E /* HomeViewController.swift */; };
+		72F53C7927C074820020FB8E /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C7827C074820020FB8E /* MainSearchViewController.swift */; };
+		72F53C7D27C074DF0020FB8E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C7C27C074DF0020FB8E /* ProfileViewController.swift */; };
+		72F53C8227C075A50020FB8E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C8127C075A50020FB8E /* SignInViewController.swift */; };
+		72F53C8427C075BC0020FB8E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C8327C075BC0020FB8E /* SignUpViewController.swift */; };
+		72F53C8627C07BFB0020FB8E /* PostType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C8527C07BFB0020FB8E /* PostType.swift */; };
+		72F53C8B27C07ED00020FB8E /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C8A27C07ED00020FB8E /* SearchResultsViewController.swift */; };
+		72F53C8D27C080190020FB8E /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C8C27C080190020FB8E /* Content.swift */; };
+		72F53C8F27C080730020FB8E /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C8E27C080730020FB8E /* ContentTableViewCell.swift */; };
+		72F53C9127C08E8C0020FB8E /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F53C9027C08E8C0020FB8E /* extensions.swift */; };
+		B4C90FC7C02E90BB217B032D /* Pods_VUCCI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF722BF8403CFA70DF30EEF /* Pods_VUCCI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11C7D5238A1DC171C65691EB /* Pods-VUCCI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VUCCI.release.xcconfig"; path = "Target Support Files/Pods-VUCCI/Pods-VUCCI.release.xcconfig"; sourceTree = "<group>"; };
+		71761044F3B913B772D93E2B /* Pods-VUCCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VUCCI.debug.xcconfig"; path = "Target Support Files/Pods-VUCCI/Pods-VUCCI.debug.xcconfig"; sourceTree = "<group>"; };
+		722D60012820AACA00B40464 /* NoSongsInPlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSongsInPlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		722D60032821E3B800B40464 /* SearchHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		724035D2281BEA4D007CFC55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		724035D4281BF1E9007CFC55 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		72429D95281E078000F8C2B3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		72429D97281E080C00F8C2B3 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		72429D99281E0F6100F8C2B3 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		72429D9B281EF95100F8C2B3 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		728CE3E4286B3B9E0023C32B /* NoResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultsTableViewCell.swift; sourceTree = "<group>"; };
+		72A496702804F4F200C8F923 /* CollectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsViewController.swift; sourceTree = "<group>"; };
+		72A496722804FE2300C8F923 /* SongGroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongGroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A49674280502DA00C8F923 /* CollectionViewViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewViewModels.swift; sourceTree = "<group>"; };
+		72A496772805AF4100C8F923 /* SongGroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongGroupDetailViewController.swift; sourceTree = "<group>"; };
+		72A4967A2805BC3F00C8F923 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		72A4967D2805E60B00C8F923 /* SongGroupHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongGroupHeader.swift; sourceTree = "<group>"; };
+		72A52432280609CF008CEC23 /* SongGroupFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongGroupFooter.swift; sourceTree = "<group>"; };
+		72A5243928060E89008CEC23 /* NewPlaylistNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaylistNameViewController.swift; sourceTree = "<group>"; };
+		72A5243B2806E50A008CEC23 /* VucciTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VucciTextField.swift; sourceTree = "<group>"; };
+		72A52443280715CF008CEC23 /* SelectPlaylistPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPlaylistPictureViewController.swift; sourceTree = "<group>"; };
+		72A524462807367B008CEC23 /* SettingsMainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMainMenuViewController.swift; sourceTree = "<group>"; };
+		72A52448280749FE008CEC23 /* CurrentSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentSongViewController.swift; sourceTree = "<group>"; };
+		72A5244B28079BC3008CEC23 /* MoreInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoView.swift; sourceTree = "<group>"; };
+		72A5244D2807AA35008CEC23 /* AccountNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNameView.swift; sourceTree = "<group>"; };
+		72A5244F28088B38008CEC23 /* ArtistOrUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistOrUserViewController.swift; sourceTree = "<group>"; };
+		72A5245128088FEA008CEC23 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A524532808A38F008CEC23 /* TopTenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTenView.swift; sourceTree = "<group>"; };
+		72A5245B2809454C008CEC23 /* MusicTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTabViewController.swift; sourceTree = "<group>"; };
+		72A5245F280D5117008CEC23 /* SharedSongManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedSongManager.swift; sourceTree = "<group>"; };
+		72A52461280DE8C1008CEC23 /* NewMusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMusicCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A52468280F8404008CEC23 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		72A5246A280F8962008CEC23 /* MessageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageManager.swift; sourceTree = "<group>"; };
+		72A5246C280F9970008CEC23 /* MessageTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTypes.swift; sourceTree = "<group>"; };
+		72A5246E28102768008CEC23 /* OtherAccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherAccountInfo.swift; sourceTree = "<group>"; };
+		72A524702810EAB6008CEC23 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		72A524722810EC45008CEC23 /* URLOpener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLOpener.swift; sourceTree = "<group>"; };
+		72A524742810ED2C008CEC23 /* ReportAnIssueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportAnIssueViewController.swift; sourceTree = "<group>"; };
+		72A5247628117519008CEC23 /* ChangeAccountTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeAccountTypeViewController.swift; sourceTree = "<group>"; };
+		72A524782811771C008CEC23 /* ChangeUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUsernameViewController.swift; sourceTree = "<group>"; };
+		72A5247A28119443008CEC23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		72A5247C28119777008CEC23 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		72A5247E281197CC008CEC23 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		72A524802812E789008CEC23 /* PlaylistOrSongSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistOrSongSearchViewController.swift; sourceTree = "<group>"; };
+		72A524822812EB7D008CEC23 /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		72A5248728174C64008CEC23 /* LikedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A5248928174CF5008CEC23 /* NewPlaylistPostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaylistPostCollectionViewCell.swift; sourceTree = "<group>"; };
+		72A5248B28175A8A008CEC23 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		72A5248D28177342008CEC23 /* PostContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContainerView.swift; sourceTree = "<group>"; };
+		72C273032822C55000BF0F87 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		72C273052822C5C400BF0F87 /* CreationMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationMenuViewController.swift; sourceTree = "<group>"; };
+		72C273072823982F00BF0F87 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		72C273092823B2C900BF0F87 /* TopTen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTen.swift; sourceTree = "<group>"; };
+		72C2730B282405A200BF0F87 /* InformationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationManager.swift; sourceTree = "<group>"; };
+		72C2732B28259FF100BF0F87 /* UserSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchViewController.swift; sourceTree = "<group>"; };
+		72C2736128270B7300BF0F87 /* UploadMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMenuViewController.swift; sourceTree = "<group>"; };
+		72C2736C28294BF300BF0F87 /* SoundFileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFileTableViewCell.swift; sourceTree = "<group>"; };
+		72C2736F28294CE000BF0F87 /* NewAlbumHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlbumHeader.swift; sourceTree = "<group>"; };
+		72C2737128295C2200BF0F87 /* UrlExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlExporter.swift; sourceTree = "<group>"; };
+		72C273732829E26900BF0F87 /* ChangeProfilePhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProfilePhotoViewController.swift; sourceTree = "<group>"; };
+		72C27375282B2DBA00BF0F87 /* NewSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSongViewModel.swift; sourceTree = "<group>"; };
+		72C273772833398200BF0F87 /* SongForAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongForAlbumViewController.swift; sourceTree = "<group>"; };
+		72C2737928346B0100BF0F87 /* NewAlbumFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAlbumFooter.swift; sourceTree = "<group>"; };
+		72C2737B2836A0D300BF0F87 /* UserSearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchResultsViewController.swift; sourceTree = "<group>"; };
+		72D280E12842BDDB00736789 /* Follow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follow.swift; sourceTree = "<group>"; };
+		72D280E32842F22500736789 /* SettingsTableFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableFooter.swift; sourceTree = "<group>"; };
+		72D280E5284696E800736789 /* Issue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		72D280E72847F09800736789 /* AllContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllContentViewController.swift; sourceTree = "<group>"; };
+		72D280EB284A5C6A00736789 /* RecommendedUsersTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedUsersTableHeader.swift; sourceTree = "<group>"; };
+		72DE6C6F283CF82E002E4C83 /* TopPicksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksCollectionViewCell.swift; sourceTree = "<group>"; };
+		72DE6C72283D81CE002E4C83 /* TopSongOrAlbumSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongOrAlbumSearchViewController.swift; sourceTree = "<group>"; };
 		72F53C5427C0738D0020FB8E /* VUCCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VUCCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F53C5727C0738D0020FB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72F53C5927C0738D0020FB8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72F53C5B27C0738D0020FB8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72F53C5E27C0738D0020FB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72F53C6127C0738D0020FB8E /* VUCCI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VUCCI.xcdatamodel; sourceTree = "<group>"; };
 		72F53C6327C0738E0020FB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72F53C6627C0738E0020FB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72F53C6827C0738E0020FB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F53C7627C074760020FB8E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		72F53C7827C074820020FB8E /* MainSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearchViewController.swift; sourceTree = "<group>"; };
+		72F53C7C27C074DF0020FB8E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		72F53C8127C075A50020FB8E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		72F53C8327C075BC0020FB8E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		72F53C8527C07BFB0020FB8E /* PostType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostType.swift; sourceTree = "<group>"; };
+		72F53C8A27C07ED00020FB8E /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		72F53C8C27C080190020FB8E /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		72F53C8E27C080730020FB8E /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		72F53C9027C08E8C0020FB8E /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		BAF722BF8403CFA70DF30EEF /* Pods_VUCCI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VUCCI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +193,174 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4C90FC7C02E90BB217B032D /* Pods_VUCCI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16D14BE18E074F92F94B763C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71761044F3B913B772D93E2B /* Pods-VUCCI.debug.xcconfig */,
+				11C7D5238A1DC171C65691EB /* Pods-VUCCI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		72A496762805AF0F00C8F923 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				72A496772805AF4100C8F923 /* SongGroupDetailViewController.swift */,
+				72A52448280749FE008CEC23 /* CurrentSongViewController.swift */,
+				72A5244F28088B38008CEC23 /* ArtistOrUserViewController.swift */,
+				72A5245B2809454C008CEC23 /* MusicTabViewController.swift */,
+				72A52468280F8404008CEC23 /* MessageViewController.swift */,
+				72A5247C28119777008CEC23 /* UserListViewController.swift */,
+				72C273772833398200BF0F87 /* SongForAlbumViewController.swift */,
+				72D280E72847F09800736789 /* AllContentViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		72A496792805BBEB00C8F923 /* Collection view cells */ = {
+			isa = PBXGroup;
+			children = (
+				72A524912818394C008CEC23 /* Main Feed */,
+				72A496722804FE2300C8F923 /* SongGroupCollectionViewCell.swift */,
+				72A5245128088FEA008CEC23 /* ContentCollectionViewCell.swift */,
+				72DE6C6F283CF82E002E4C83 /* TopPicksCollectionViewCell.swift */,
+			);
+			path = "Collection view cells";
+			sourceTree = "<group>";
+		};
+		72A4967C2805BC4400C8F923 /* table view cells */ = {
+			isa = PBXGroup;
+			children = (
+				72A4967A2805BC3F00C8F923 /* SongTableViewCell.swift */,
+				72F53C8E27C080730020FB8E /* ContentTableViewCell.swift */,
+				72A5247E281197CC008CEC23 /* UserTableViewCell.swift */,
+				722D60012820AACA00B40464 /* NoSongsInPlaylistTableViewCell.swift */,
+				722D60032821E3B800B40464 /* SearchHistoryTableViewCell.swift */,
+				72C2736C28294BF300BF0F87 /* SoundFileTableViewCell.swift */,
+				72D280E32842F22500736789 /* SettingsTableFooter.swift */,
+				72D280EB284A5C6A00736789 /* RecommendedUsersTableHeader.swift */,
+				728CE3E4286B3B9E0023C32B /* NoResultsTableViewCell.swift */,
+			);
+			path = "table view cells";
+			sourceTree = "<group>";
+		};
+		72A5243428060D75008CEC23 /* Main Search */ = {
+			isa = PBXGroup;
+			children = (
+				72F53C8A27C07ED00020FB8E /* SearchResultsViewController.swift */,
+			);
+			path = "Main Search";
+			sourceTree = "<group>";
+		};
+		72A5243528060D7D008CEC23 /* playlist or song search */ = {
+			isa = PBXGroup;
+			children = (
+				72A524802812E789008CEC23 /* PlaylistOrSongSearchViewController.swift */,
+			);
+			path = "playlist or song search";
+			sourceTree = "<group>";
+		};
+		72A5243628060DC0008CEC23 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				72A5243928060E89008CEC23 /* NewPlaylistNameViewController.swift */,
+				72A52443280715CF008CEC23 /* SelectPlaylistPictureViewController.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		72A5244528073661008CEC23 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				72A524462807367B008CEC23 /* SettingsMainMenuViewController.swift */,
+				72A524702810EAB6008CEC23 /* TermsAndConditionsViewController.swift */,
+				72A524742810ED2C008CEC23 /* ReportAnIssueViewController.swift */,
+				72A5247628117519008CEC23 /* ChangeAccountTypeViewController.swift */,
+				72A524782811771C008CEC23 /* ChangeUsernameViewController.swift */,
+				72C273732829E26900BF0F87 /* ChangeProfilePhotoViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		72A5244A28079B6C008CEC23 /* profile views */ = {
+			isa = PBXGroup;
+			children = (
+				72A5244B28079BC3008CEC23 /* MoreInfoView.swift */,
+				72A5244D2807AA35008CEC23 /* AccountNameView.swift */,
+				72A524532808A38F008CEC23 /* TopTenView.swift */,
+				72A5246E28102768008CEC23 /* OtherAccountInfo.swift */,
+			);
+			path = "profile views";
+			sourceTree = "<group>";
+		};
+		72A52465280DE8EF008CEC23 /* Song Group */ = {
+			isa = PBXGroup;
+			children = (
+				72A52432280609CF008CEC23 /* SongGroupFooter.swift */,
+				72A4967D2805E60B00C8F923 /* SongGroupHeader.swift */,
+			);
+			path = "Song Group";
+			sourceTree = "<group>";
+		};
+		72A524912818394C008CEC23 /* Main Feed */ = {
+			isa = PBXGroup;
+			children = (
+				72A5248728174C64008CEC23 /* LikedCollectionViewCell.swift */,
+				72A52461280DE8C1008CEC23 /* NewMusicCollectionViewCell.swift */,
+				72A5248928174CF5008CEC23 /* NewPlaylistPostCollectionViewCell.swift */,
+				72A5248D28177342008CEC23 /* PostContainerView.swift */,
+			);
+			path = "Main Feed";
+			sourceTree = "<group>";
+		};
+		72C2732D28259FFB00BF0F87 /* User Search */ = {
+			isa = PBXGroup;
+			children = (
+				72C2732B28259FF100BF0F87 /* UserSearchViewController.swift */,
+				72C2737B2836A0D300BF0F87 /* UserSearchResultsViewController.swift */,
+			);
+			path = "User Search";
+			sourceTree = "<group>";
+		};
+		72C2736328271BFD00BF0F87 /* Upload Content */ = {
+			isa = PBXGroup;
+			children = (
+				72C2736128270B7300BF0F87 /* UploadMenuViewController.swift */,
+			);
+			path = "Upload Content";
+			sourceTree = "<group>";
+		};
+		72C2736E28294CAA00BF0F87 /* New Album Table */ = {
+			isa = PBXGroup;
+			children = (
+				72C2736F28294CE000BF0F87 /* NewAlbumHeader.swift */,
+				72C2737928346B0100BF0F87 /* NewAlbumFooter.swift */,
+			);
+			path = "New Album Table";
+			sourceTree = "<group>";
+		};
+		72DE6C71283D8188002E4C83 /* Top Songs and Albums Search */ = {
+			isa = PBXGroup;
+			children = (
+				72DE6C72283D81CE002E4C83 /* TopSongOrAlbumSearchViewController.swift */,
+			);
+			path = "Top Songs and Albums Search";
+			sourceTree = "<group>";
+		};
 		72F53C4B27C0738D0020FB8E = {
 			isa = PBXGroup;
 			children = (
 				72F53C5627C0738D0020FB8E /* VUCCI */,
 				72F53C5527C0738D0020FB8E /* Products */,
+				16D14BE18E074F92F94B763C /* Pods */,
+				8E7DB3A9CCFF56EB97EDE0BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +375,141 @@
 		72F53C5627C0738D0020FB8E /* VUCCI */ = {
 			isa = PBXGroup;
 			children = (
+				72F53C7327C074100020FB8E /* models */,
+				72F53C7227C073F80020FB8E /* resources */,
+				72F53C7127C073E70020FB8E /* View models */,
+				72F53C7027C073E00020FB8E /* Views */,
+				72F53C6F27C073D30020FB8E /* Managers */,
+				72F53C6E27C073CB0020FB8E /* Controllers */,
 				72F53C5727C0738D0020FB8E /* AppDelegate.swift */,
 				72F53C5927C0738D0020FB8E /* SceneDelegate.swift */,
-				72F53C5B27C0738D0020FB8E /* ViewController.swift */,
 				72F53C5D27C0738D0020FB8E /* Main.storyboard */,
 				72F53C6327C0738E0020FB8E /* Assets.xcassets */,
 				72F53C6527C0738E0020FB8E /* LaunchScreen.storyboard */,
+				724035D2281BEA4D007CFC55 /* GoogleService-Info.plist */,
 				72F53C6827C0738E0020FB8E /* Info.plist */,
 				72F53C6027C0738D0020FB8E /* VUCCI.xcdatamodeld */,
 			);
 			path = VUCCI;
+			sourceTree = "<group>";
+		};
+		72F53C6E27C073CB0020FB8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72C2736328271BFD00BF0F87 /* Upload Content */,
+				72A5244528073661008CEC23 /* Settings */,
+				72A5243628060DC0008CEC23 /* Playlist */,
+				72A496762805AF0F00C8F923 /* Detail */,
+				72F53C8727C07E190020FB8E /* Search */,
+				72F53C8027C075810020FB8E /* Login controllers */,
+				72F53C7427C0743C0020FB8E /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72F53C6F27C073D30020FB8E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				72A5245F280D5117008CEC23 /* SharedSongManager.swift */,
+				72A5246A280F8962008CEC23 /* MessageManager.swift */,
+				724035D4281BF1E9007CFC55 /* AuthenticationManager.swift */,
+				72429D95281E078000F8C2B3 /* DatabaseManager.swift */,
+				72429D97281E080C00F8C2B3 /* StorageManager.swift */,
+				72C2730B282405A200BF0F87 /* InformationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		72F53C7027C073E00020FB8E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72C2736E28294CAA00BF0F87 /* New Album Table */,
+				72A52465280DE8EF008CEC23 /* Song Group */,
+				72A5244A28079B6C008CEC23 /* profile views */,
+				72A4967C2805BC4400C8F923 /* table view cells */,
+				72A496792805BBEB00C8F923 /* Collection view cells */,
+				72A5243B2806E50A008CEC23 /* VucciTextField.swift */,
+				72429D99281E0F6100F8C2B3 /* LoadingViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		72F53C7127C073E70020FB8E /* View models */ = {
+			isa = PBXGroup;
+			children = (
+				72A49674280502DA00C8F923 /* CollectionViewViewModels.swift */,
+				72C273072823982F00BF0F87 /* UserInfo.swift */,
+				72C27375282B2DBA00BF0F87 /* NewSongViewModel.swift */,
+			);
+			path = "View models";
+			sourceTree = "<group>";
+		};
+		72F53C7227C073F80020FB8E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				72F53C9027C08E8C0020FB8E /* extensions.swift */,
+				72A524722810EC45008CEC23 /* URLOpener.swift */,
+				72C2737128295C2200BF0F87 /* UrlExporter.swift */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		72F53C7327C074100020FB8E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				72F53C8C27C080190020FB8E /* Content.swift */,
+				72A5247A28119443008CEC23 /* User.swift */,
+				72A5248B28175A8A008CEC23 /* Post.swift */,
+				72A5246C280F9970008CEC23 /* MessageTypes.swift */,
+				72A524822812EB7D008CEC23 /* ContentType.swift */,
+				72F53C8527C07BFB0020FB8E /* PostType.swift */,
+				72429D9B281EF95100F8C2B3 /* ToDoList.swift */,
+				72C273092823B2C900BF0F87 /* TopTen.swift */,
+				72D280E12842BDDB00736789 /* Follow.swift */,
+				72D280E5284696E800736789 /* Issue.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		72F53C7427C0743C0020FB8E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				72F53C7627C074760020FB8E /* HomeViewController.swift */,
+				72F53C7827C074820020FB8E /* MainSearchViewController.swift */,
+				72C273052822C5C400BF0F87 /* CreationMenuViewController.swift */,
+				72A496702804F4F200C8F923 /* CollectionsViewController.swift */,
+				72F53C7C27C074DF0020FB8E /* ProfileViewController.swift */,
+				72C273032822C55000BF0F87 /* TabBarViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		72F53C8027C075810020FB8E /* Login controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72F53C8127C075A50020FB8E /* SignInViewController.swift */,
+				72F53C8327C075BC0020FB8E /* SignUpViewController.swift */,
+			);
+			path = "Login controllers";
+			sourceTree = "<group>";
+		};
+		72F53C8727C07E190020FB8E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				72DE6C71283D8188002E4C83 /* Top Songs and Albums Search */,
+				72C2732D28259FFB00BF0F87 /* User Search */,
+				72A5243528060D7D008CEC23 /* playlist or song search */,
+				72A5243428060D75008CEC23 /* Main Search */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		8E7DB3A9CCFF56EB97EDE0BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF722BF8403CFA70DF30EEF /* Pods_VUCCI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +519,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72F53C6B27C0738E0020FB8E /* Build configuration list for PBXNativeTarget "VUCCI" */;
 			buildPhases = (
+				B11089E7EEE249FB792E882C /* [CP] Check Pods Manifest.lock */,
 				72F53C5027C0738D0020FB8E /* Sources */,
 				72F53C5127C0738D0020FB8E /* Frameworks */,
 				72F53C5227C0738D0020FB8E /* Resources */,
+				925ACFD8DB4BEFFE019889DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,20 +575,140 @@
 				72F53C6727C0738E0020FB8E /* LaunchScreen.storyboard in Resources */,
 				72F53C6427C0738E0020FB8E /* Assets.xcassets in Resources */,
 				72F53C5F27C0738D0020FB8E /* Main.storyboard in Resources */,
+				724035D3281BEA4E007CFC55 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		925ACFD8DB4BEFFE019889DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VUCCI/Pods-VUCCI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VUCCI/Pods-VUCCI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VUCCI/Pods-VUCCI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B11089E7EEE249FB792E882C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VUCCI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72F53C5027C0738D0020FB8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A524542808A38F008CEC23 /* TopTenView.swift in Sources */,
+				72C2732C28259FF100BF0F87 /* UserSearchViewController.swift in Sources */,
+				72A5244C28079BC4008CEC23 /* MoreInfoView.swift in Sources */,
+				72A5245028088B38008CEC23 /* ArtistOrUserViewController.swift in Sources */,
+				72DE6C73283D81CE002E4C83 /* TopSongOrAlbumSearchViewController.swift in Sources */,
+				72A49675280502DA00C8F923 /* CollectionViewViewModels.swift in Sources */,
+				72C273042822C55000BF0F87 /* TabBarViewController.swift in Sources */,
+				72A5248A28174CF5008CEC23 /* NewPlaylistPostCollectionViewCell.swift in Sources */,
+				72A5248E28177343008CEC23 /* PostContainerView.swift in Sources */,
+				72A5247D28119777008CEC23 /* UserListViewController.swift in Sources */,
+				72D280E22842BDDC00736789 /* Follow.swift in Sources */,
+				72C2736D28294BF300BF0F87 /* SoundFileTableViewCell.swift in Sources */,
+				72C273082823983000BF0F87 /* UserInfo.swift in Sources */,
+				72C273062822C5C400BF0F87 /* CreationMenuViewController.swift in Sources */,
+				72D280EC284A5C6B00736789 /* RecommendedUsersTableHeader.swift in Sources */,
+				72C273742829E26900BF0F87 /* ChangeProfilePhotoViewController.swift in Sources */,
+				72D280E6284696EA00736789 /* Issue.swift in Sources */,
+				72A5243A28060E89008CEC23 /* NewPlaylistNameViewController.swift in Sources */,
+				72C2736228270B7300BF0F87 /* UploadMenuViewController.swift in Sources */,
+				72F53C8B27C07ED00020FB8E /* SearchResultsViewController.swift in Sources */,
+				72A4967B2805BC3F00C8F923 /* SongTableViewCell.swift in Sources */,
+				72F53C7927C074820020FB8E /* MainSearchViewController.swift in Sources */,
+				72C273782833398300BF0F87 /* SongForAlbumViewController.swift in Sources */,
+				722D60042821E3B800B40464 /* SearchHistoryTableViewCell.swift in Sources */,
 				72F53C6227C0738D0020FB8E /* VUCCI.xcdatamodeld in Sources */,
-				72F53C5C27C0738D0020FB8E /* ViewController.swift in Sources */,
+				72A524792811771C008CEC23 /* ChangeUsernameViewController.swift in Sources */,
+				72A52444280715CF008CEC23 /* SelectPlaylistPictureViewController.swift in Sources */,
+				72F53C8627C07BFB0020FB8E /* PostType.swift in Sources */,
+				72429D9A281E0F6100F8C2B3 /* LoadingViewController.swift in Sources */,
+				72A496782805AF4100C8F923 /* SongGroupDetailViewController.swift in Sources */,
+				724035D5281BF1E9007CFC55 /* AuthenticationManager.swift in Sources */,
+				72A5245C2809454C008CEC23 /* MusicTabViewController.swift in Sources */,
+				72F53C8427C075BC0020FB8E /* SignUpViewController.swift in Sources */,
+				72A4967E2805E60B00C8F923 /* SongGroupHeader.swift in Sources */,
 				72F53C5827C0738D0020FB8E /* AppDelegate.swift in Sources */,
+				72A52462280DE8C2008CEC23 /* NewMusicCollectionViewCell.swift in Sources */,
+				72A496732804FE2300C8F923 /* SongGroupCollectionViewCell.swift in Sources */,
+				722D60022820AACA00B40464 /* NoSongsInPlaylistTableViewCell.swift in Sources */,
+				72429D98281E080C00F8C2B3 /* StorageManager.swift in Sources */,
+				72F53C8D27C080190020FB8E /* Content.swift in Sources */,
+				72F53C8227C075A50020FB8E /* SignInViewController.swift in Sources */,
+				72A52449280749FE008CEC23 /* CurrentSongViewController.swift in Sources */,
+				72C2730A2823B2C900BF0F87 /* TopTen.swift in Sources */,
+				72C2737C2836A0D300BF0F87 /* UserSearchResultsViewController.swift in Sources */,
+				72A524832812EB7D008CEC23 /* ContentType.swift in Sources */,
+				72A5246B280F8962008CEC23 /* MessageManager.swift in Sources */,
+				72C2730C282405A300BF0F87 /* InformationManager.swift in Sources */,
+				72F53C9127C08E8C0020FB8E /* extensions.swift in Sources */,
+				728CE3E5286B3B9F0023C32B /* NoResultsTableViewCell.swift in Sources */,
+				72C2737228295C2300BF0F87 /* UrlExporter.swift in Sources */,
+				72A5243C2806E50A008CEC23 /* VucciTextField.swift in Sources */,
+				72A524472807367B008CEC23 /* SettingsMainMenuViewController.swift in Sources */,
+				72A52460280D5117008CEC23 /* SharedSongManager.swift in Sources */,
+				72A5248C28175A8A008CEC23 /* Post.swift in Sources */,
+				72A5246F28102768008CEC23 /* OtherAccountInfo.swift in Sources */,
+				72A524812812E789008CEC23 /* PlaylistOrSongSearchViewController.swift in Sources */,
+				72A496712804F4F200C8F923 /* CollectionsViewController.swift in Sources */,
+				72A5245228088FEB008CEC23 /* ContentCollectionViewCell.swift in Sources */,
+				72D280E82847F09800736789 /* AllContentViewController.swift in Sources */,
+				72C2737028294CE000BF0F87 /* NewAlbumHeader.swift in Sources */,
+				72C2737A28346B0100BF0F87 /* NewAlbumFooter.swift in Sources */,
+				72F53C7D27C074DF0020FB8E /* ProfileViewController.swift in Sources */,
+				72A524712810EAB7008CEC23 /* TermsAndConditionsViewController.swift in Sources */,
+				72DE6C70283CF82E002E4C83 /* TopPicksCollectionViewCell.swift in Sources */,
+				72429D9C281EF95100F8C2B3 /* ToDoList.swift in Sources */,
+				72A52469280F8404008CEC23 /* MessageViewController.swift in Sources */,
+				72A5244E2807AA36008CEC23 /* AccountNameView.swift in Sources */,
+				72A5246D280F9970008CEC23 /* MessageTypes.swift in Sources */,
+				72A5247B28119443008CEC23 /* User.swift in Sources */,
 				72F53C5A27C0738D0020FB8E /* SceneDelegate.swift in Sources */,
+				72C27376282B2DBB00BF0F87 /* NewSongViewModel.swift in Sources */,
+				72F53C7727C074760020FB8E /* HomeViewController.swift in Sources */,
+				72F53C8F27C080730020FB8E /* ContentTableViewCell.swift in Sources */,
+				72A5248828174C64008CEC23 /* LikedCollectionViewCell.swift in Sources */,
+				72A524752810ED2C008CEC23 /* ReportAnIssueViewController.swift in Sources */,
+				72A524732810EC45008CEC23 /* URLOpener.swift in Sources */,
+				72A52433280609CF008CEC23 /* SongGroupFooter.swift in Sources */,
+				72429D96281E078000F8C2B3 /* DatabaseManager.swift in Sources */,
+				72A5247F281197CD008CEC23 /* UserTableViewCell.swift in Sources */,
+				72A524772811751A008CEC23 /* ChangeAccountTypeViewController.swift in Sources */,
+				72D280E42842F22500736789 /* SettingsTableFooter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +852,7 @@
 		};
 		72F53C6C27C0738E0020FB8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71761044F3B913B772D93E2B /* Pods-VUCCI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,11 +861,14 @@
 				DEVELOPMENT_TEAM = A9GZA44T6J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VUCCI/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Please Allow VUCCI Access To Photo Library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please Allow VUCCI Access To Photo Library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,12 +878,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		72F53C6D27C0738E0020FB8E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C7D5238A1DC171C65691EB /* Pods-VUCCI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,11 +893,14 @@
 				DEVELOPMENT_TEAM = A9GZA44T6J;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VUCCI/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Please Allow VUCCI Access To Photo Library";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please Allow VUCCI Access To Photo Library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,7 +910,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21D49" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ContentSearchHistoryItem" representedClassName="ContentSearchHistoryItem" syncable="YES" codeGenerationType="class">
+        <attribute name="dateSearched" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="searchHistoryText" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserSearchHistoryItem" representedClassName="UserSearchHistoryItem" syncable="YES" codeGenerationType="class">
+        <attribute name="dateSearched" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ContentSearchHistoryItem" positionX="-63" positionY="-18" width="128" height="59"/>
+        <element name="UserSearchHistoryItem" positionX="-63" positionY="0" width="128" height="59"/>
+    </elements>
 </model>
